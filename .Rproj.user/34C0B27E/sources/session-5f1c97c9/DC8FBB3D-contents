@@ -1,0 +1,22 @@
+---
+Titulo: "Cafè"
+Integrantes: 
+-Lopez Merino Jhon Edler
+-Cubas Vásquez Luis Albero
+-Calderón Damian Nayeli
+-Mariñas Alvardo Geysler 
+-Jiménez Yoplac Alexandra Zareli
+-Machacuay Pintado Julio Cesar
+-Reyna Silva Gilberto
+---
+
+```{r}
+ # INTRODUCCION 
+
+El café es uno de los cultivos agrícolas más importantes del Perú, tanto por su impacto económico como social y ambiental. Este grano se produce en diversas regiones del país, especialmente en la selva alta, donde destaca por ser una fuente esencial de sustento para miles de familias agricultoras. Perú se ha consolidado como un referente mundial en la producción de cafés especiales y orgánicos, logrando posicionarse entre los principales países exportadores de café. Actualmente, mercados como la Unión Europea y Estados Unidos destacan como los principales destinos de exportación, consolidando al café peruano en la preferencia de consumidores que valoran la calidad y sostenibilidad de su producción (Apeña, 2020).
+A nivel global, la industria del café enfrenta desafíos crecientes en términos de competitividad, sostenibilidad y eficiencia. Esto ha llevado a una creciente incorporación de herramientas tecnológicas que optimizan procesos agrícolas, mejoran la productividad y facilitan el monitoreo de la calidad del cultivo. Entre estas tecnologías, los modelos computacionales basados en programación, como los desarrollados en Python, se han convertido en una herramienta clave (Rivera, 2022).
+Python, con su versatilidad y una amplia gama de bibliotecas especializadas en análisis de datos, procesamiento de imágenes y aprendizaje automático, permite abordar problemas complejos como la identificación de áreas foliares, el monitoreo de enfermedades y la evaluación de características morfológicas de las plantas. La implementación de estos modelos no solo mejora la precisión y la rapidez en el análisis, sino que también contribuye a una toma de decisiones más informada en la gestión del cultivo (Rivera, 2022).
+En este contexto, desarrollar modelos computacionales basados en imágenes de hojas de café representa una oportunidad para avanzar en la modernización del sector cafetalero peruano. Esta herramienta puede ser utilizada para identificar problemas como enfermedades o deficiencias nutricionales, optimizar el manejo agronómico y mejorar el rendimiento del cultivo. Además, al integrar estas soluciones tecnológicas con las prácticas tradicionales, se puede garantizar la sostenibilidad y competitividad del café peruano en los mercados internacionales.
+
+
+```
