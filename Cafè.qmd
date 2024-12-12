@@ -1,11 +1,94 @@
 ---
-title: "Cafè"
+title: "Coffe"
+format:
+  html:
+    toc: true
+    toc-location: left
+    number-sections: true
+    embed-resources: true
+    smooth-scroll: true
+    anchor-sections: true
+    output-file: index
 ---
 
-## Quarto
 
-Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
 
-```{r}
-1 + 1
-```
+ # INTRODUCCION 
+
+El café es uno de los cultivos agrícolas más importantes del Perú, tanto por su impacto económico como social y ambiental. Este grano se produce en diversas regiones del país, especialmente en la selva alta, donde destaca por ser una fuente esencial de sustento para miles de familias agricultoras. Perú se ha consolidado como un referente mundial en la producción de cafés especiales y orgánicos, logrando posicionarse entre los principales países exportadores de café. Actualmente, mercados como la Unión Europea y Estados Unidos destacan como los principales destinos de exportación, consolidando al café peruano en la preferencia de consumidores que valoran la calidad y sostenibilidad de su producción (Apeña, 2020).
+A nivel global, la industria del café enfrenta desafíos crecientes en términos de competitividad, sostenibilidad y eficiencia. Esto ha llevado a una creciente incorporación de herramientas tecnológicas que optimizan procesos agrícolas, mejoran la productividad y facilitan el monitoreo de la calidad del cultivo. Entre estas tecnologías, los modelos computacionales basados en programación, como los desarrollados en Python, se han convertido en una herramienta clave (Rivera, 2022).
+Python, con su versatilidad y una amplia gama de bibliotecas especializadas en análisis de datos, procesamiento de imágenes y aprendizaje automático, permite abordar problemas complejos como la identificación de áreas foliares, el monitoreo de enfermedades y la evaluación de características morfológicas de las plantas. La implementación de estos modelos no solo mejora la precisión y la rapidez en el análisis, sino que también contribuye a una toma de decisiones más informada en la gestión del cultivo (Rivera, 2022).
+En este contexto, desarrollar modelos computacionales basados en imágenes de hojas de café representa una oportunidad para avanzar en la modernización del sector cafetalero peruano. Esta herramienta puede ser utilizada para identificar problemas como enfermedades o deficiencias nutricionales, optimizar el manejo agronómico y mejorar el rendimiento del cultivo. Además, al integrar estas soluciones tecnológicas con las prácticas tradicionales, se puede garantizar la sostenibilidad y competitividad del café peruano en los mercados internacionales.
+
+
+## Objetivos 
+
+  OBJETIVO GENERAL
+
+•	Desarrollar una metodología basada en el procesamiento de imágenes para la identificación y análisis de características morfológicas de hojas de café, utilizando herramientas de anotación y modelos de aprendizaje automático en Python.
+
+
+OBJETIVO ESPECÍFICO:
+•	Recolectar y preprocesar imágenes de hojas de café provenientes de diferentes variedades y condiciones agroecológicas, asegurando su calidad para el análisis posterior.
+•	Implementar un modelo de aprendizaje automático en Python para el análisis de las imágenes anotadas, orientado a calcular áreas foliares, identificar patrones, y clasificar características relevantes.
+•	Evaluar la precisión y eficacia del modelo desarrollado mediante métricas específicas, para determinar su aplicabilidad en el diagnóstico agronómico o la gestión del cultivo de café.
+
+
+
+### Materiales y Metòdos
+
+
+Materiales 
+
+-Aparato digital o móvil de alta resolución para tomar imágenes de hojas de Coffea y monedas de un "Nuevo sol".
+- Computadora que pueda ejecutar ambientes de desarrollo y procesamiento de información.
+-La moneda de un "Nuevo sol" es una referencia para normalizar la escala de las imágenes que se han capturado.
+
+
+Software:
+
+. Label Studio es un software de código abierto creado para registrar datos en   proyectos de aprendizaje automático. Es altamente adaptable y admite diversos tipos de datos, tales como texto, imágenes, audio, video y series temporales, lo que la hace una elección adaptable para labores de preparación de datos. Se emplea por grupos de investigación, expertos en ciencias de datos y programadores que intentan identificar datos de manera precisa para capacitar modelos de inteligencia artificial.
+. Anaconda es una distribución de programas informáticos que abarca un conjunto de herramientas concebidas para el desarrollo, la administración de paquetes y la realización de proyectos vinculados a la ciencia de datos, el aprendizaje automático, la inteligencia artificial y otras disciplinas vinculadas a la programación en Python. y R. Es muy empleado por científicos de datos, investigadores y programadores debido a su sencillez de manejo y su compatibilidad con diversas bibliotecas y herramientas.
+Manejo de paquetes
+Anaconda emplea condado, un sistema de administración de paquetes que facilita la instalación, actualización y desinstalación de paquetes y dependencias. Además, admite el uso de paquetes de pipotros.
+. RStudio es un ambiente de desarrollo integrado (IDE) creado específicamente para manejar el lenguaje de programación R. Su uso es extenso entre analistas de datos, estadísticos y científicos, gracias a su enfoque en simplificar el desarrollo, análisis y representación visual de datos.
+
+Métodos 
+
+Paso Nª1: Obtenciòn de las imagenes
+se realizo la captura de imagen de las hojas de Coffea 
+
+Paso Nª2: Establecimiento de una escala 
+Con la ayuda de la moneda de un "Nuevo sol", como una referencia de una escala.
+
+Paso Nª3: adjunto de las imagesnes
+Se subieron a una pagina de Google Drive 60 imagenes de fotografías de hojas de coffee (cafè) junto con una moneda de un “Nuevo sol” como referencia de escala. Las imágenes fueron tomadas en condiciones controladas para asegurar consistencia en iluminación y tamaño.
+
+Paso Nª4: Instalaciòn de Anaconda 
+
+Se procedio a la descarga e instalaciòn del programa analitico de Anaconda con la finalidad de ayudar al analisis.
+
+![Realizamos un clik en descargar para la obtecion de la aplicaciòn](C:\Users\geysl\Documents\Cafè\1.jpg)
+
+Paso Nª5: Ejecucion de Label Stdio
+se ejecuto el link de la pagina Label Studio para la otencion de codigos de que implementan a la aplicacion de Anaconda para el procesamiento de datos.Dicho codigo se encontro en el tercer parafo.
+Paso Nª6: creaciòn de una cuenta de usiario 
+Al ejecutar los codigos de Label Studio, la aplicaciòn nos direge a crear una pagina de registro el cual llenamos como dicta sus caracteristicas .
+Paso Nª7: Creaciòn de un nuevo proyecto 
+Al registrate en la pagina generamos un proyecto en la cual llenaremos datos sugueridos por la aplicacion y realizamos ajuates para nuestro beneficio. Luego nos dirigimos Labeling Setup, para seleccionar la opciòn de poligonos en la textura de imagen, la cual se divide en la correcion de dos palabras (lamina y moneda). Al final nos dirigimos Data Import para exportar todas las imagenes de Google Drive para su analisis.
+Paso Nª8: Anotaciòn de las imagenes
+En este procedimiento se realizo la separaciòn de la lamina de hoja de cafè y la moneda de un "Nuevo sol", utilizando puntos referenciales para la separaciòn de estos dos objetos.
+
+#### LINK DE ANACONDA 
+
+##### Conclusiòn
+
+En el desarrollo de Python, hay varias herramientas que proporcionan opciones distintas a Anaconda, cada una con atributos particulares diseñados para satisfacer diferentes requerimientos. Soluciones como Miniconda, Pipenv, Poetry, Virtualenv, Pyenv, Miniforge, Mamba, Conda autónoma y Docker se distinguen por su habilidad para administrar entornos y dependencias de manera eficaz, facilitando a los programadores la personalización de sus proyectos en función de necesidades de velocidad, aislamiento, compatibilidad con múltiples plataformas o reproducibilidad.
+Además, estas herramientas no solo optimizan el flujo de trabajo en proyectos de aprendizaje automático y desarrollo de software, sino que también son clave en áreas especializadas como la agricultura digital. Dentro de este contexto, la anotación de imágenes juega un papel crucial en el desarrollo de modelos de inteligencia artificial para aplicaciones de visión por computadora. Herramientas como Label Studio simplifican este proceso, permitiendo realizar anotaciones precisas y consistentes mediante técnicas como la segmentación semántica y la anotación de objetos (hojas, monedas). Este paso es fundamental, ya que la calidad de los datos anotados influye directamente en el rendimiento y precisión de los modelos entrenados.
+
+
+###### Referencias 
+- Rivera Rojo, C. R. (2022). Competitividad del café mexicano en el comercio internacional: un análisis comparativo con Brasil, Colombia y Perú (2000-2019). Análisis económico, 37(94), 181-199.
+- Apeña Castillo, K. Y., & Zarpan Casas, J. V. (2020). Factores determinantes en el sector cafetalero del Perú para la exportación de café orgánico hacia el mercado de Estados Unidos durante el periodo 2000–2019.
+
+
