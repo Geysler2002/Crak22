@@ -98,7 +98,7 @@ Paso Nª 7: Importaciòn de las imagenes
 
 Se cargaron las 50 imagenes de las hojas de cafè.
 
-![Imagenes cargadas](C:\Users\geysl\Documents\Cafè\14.jpg)
+![Imagenes cargadas](C:\Users\geysl\Documents\Cafè\10.jpg)
 
 Paso Nª 8: Creaciòn de etiquetas 
 
