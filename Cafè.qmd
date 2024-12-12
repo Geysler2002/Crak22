@@ -1,5 +1,5 @@
 ---
-title: "EL CAFÈ"
+title: "Anotaciòn de imagenes de Cafè (Coffea arabica)"
 format: 
   html:
     toc: true
@@ -56,56 +56,83 @@ En este contexto, desarrollar modelos computacionales basados en imágenes de ho
 
 ## Métodos
 
-Paso Nª1: Obtenciòn de las imagenes 
+Paso Nª 1: Obtenciòn de las imagenes 
 
 se realizo la captura de imagen de las hojas de Coffea
 
 ![Toma de imagen de las hojas de cafè y la moneda](C:\Users\geysl\Documents\Cafè\21.jpg)
 
-Paso Nª2: Establecimiento de una escala 
+Paso Nª 2: Establecimiento de una escala 
 
 Con la ayuda de la moneda de un "Nuevo sol", como una referencia de una escala.
 
 ![Se toma como una escala la moneda de un "Nuevo sol", para lamina de hoja de cafè](C:\Users\geysl\Documents\Cafè\22.jpg)
 
-Paso Nª3: adjunto de las imagesnes 
-
-Se subieron a una pagina de Google Drive 60 imagenes de fotografías de hojas de coffee (cafè) junto con una moneda de un “Nuevo sol” como referencia de escala. Las imágenes fueron tomadas en condiciones controladas para asegurar consistencia en iluminación y tamaño.
-
-![Imagenes cargadas al Google Drive de las hojas de cafè](C:\Users\geysl\Documents\Cafè\23.jpg)
-
-Paso Nª4: Instalaciòn de Anaconda
+Paso Nª 3: Instalaciòn de Anaconda
 
 Se procedio a la descarga e instalaciòn del programa analitico de Anaconda con la finalidad de ayudar al analisis.
 
 ![Realizamos un clik en descargar para la obtecion de la aplicaciòn](C:\Users\geysl\Documents\Cafè\1.jpg)
 
-Paso Nª5: Ejecucion de Label Stdio 
+Paso Nª 4: Ejecucion de Label Stdio 
 
 Se ejecuto el link de la pagina Label Studio para la otencion de codigos de que implementan a la aplicacion de Anaconda para el procesamiento de datos.Dicho codigo se encontro en el tercer parafo.
 
-![](C:\Users\geysl\Documents\Cafè\8.jpg)
+![Pagina de inicio de Label Studio](C:\Users\geysl\Documents\Cafè\8.jpg)
 ![Codigos para la ejecucion de Anaconda](C:\Users\geysl\Documents\Cafè\6.jpg)
 
-Paso Nª6: creaciòn de una cuenta de usiario Al ejecutar los codigos de Label Studio, la aplicaciòn nos direge a crear una pagina de registro el cual llenamos como dicta sus caracteristicas . 
+Paso Nª 5: creaciòn de una cuenta de usiario 
 
+Al ejecutar los codigos de Label Studio, la aplicaciòn nos direge a crear una pagina de registro el cual llenamos como dicta sus caracteristicas . 
+ 
 ![Llemar con los cuadros en blanco](C:\Users\geysl\Documents\Cafè\0.1.jpg)
 
-Paso Nª7: Creaciòn de un nuevo proyecto Al registrate en la pagina generamos un proyecto en la cual llenaremos datos sugueridos por la aplicacion y realizamos ajuates para nuestro beneficio. 
 
-![](C:\Users\geysl\Documents\Cafè\9.jpg)
+Paso Nª 6: Creaciòn de un nuevo proyecto 
 
-Luego nos dirigimos Labeling Setup, para seleccionar la opciòn de poligonos en la textura de imagen, la cual se divide en la correcion de dos palabras (lamina y moneda). 
+Al registrate en la pagina generamos un proyecto en la cual llenaremos datos sugueridos por la aplicacion y realizamos ajuates para nuestro beneficio. 
 
-![](C:\Users\geysl\Documents\Cafè\10.jpg)
+![Ventana del nuevo proyecto](C:\Users\geysl\Documents\Cafè\9.jpg)
 
-Al final nos dirigimos Data Import para exportar todas las imagenes de Google Drive para su analisis. 
+Paso Nª 7: Importaciòn de las imagenes 
 
-![](C:\Users\geysl\Documents\Cafè\14.jpg)
+Se cargaron las 50 imagenes de las hojas de cafè.
 
-Paso Nª8: Anotaciòn de las imagenes En este procedimiento se realizo la separaciòn de la lamina de hoja de cafè y la moneda de un "Nuevo sol", utilizando puntos referenciales para la separaciòn de estos dos objetos.
+![Imagenes cargadas](C:\Users\geysl\Documents\Cafè\14.jpg)
 
-![](C:\Users\geysl\Documents\Cafè\11.jpg)
+Paso Nª 8: Creaciòn de etiquetas 
+
+Luego nos dirigimos Labeling Setup, para seleccionar la opciòn de poligonos en la textura de imagen, seguidamente se crearon las etiquetas de anotaciòn (lamina y moneda).Al finalizar se guardo el proyecto. 
+
+![Selecciòn de la funsiòn en poligonos](C:\Users\geysl\Documents\Cafè\11.jpg)
+![Creaciòn de etiquetas](C:\Users\geysl\Documents\Cafè\30.jpg)
+
+Paso Nª 9: Realizaciòn de las antociones 
+
+Se delimito las perimetro, colocando puntos sobre los obejetos lamina y moneda haciendo uso de las etiquetas. Se repitio esl procedimiento para las 50 imagenes.
+
+![Anotaciòn por puntos poligonales](C:\Users\geysl\Documents\Cafè\14.jpg)
+
+Paso Nª 10: Exportaciòn de imagenes
+
+Se realizò una seleciòn de las imagenes para su exportacòn en formato "COCO. 
+
+![Selecciòn de imagenes](C:\Users\geysl\Documents\Cafè\15.jpg)
+
+![Exortaciòn en formato](C:\Users\geysl\Documents\Cafè\16.jpg)
+
+
+
+Paso Nª 11: Importaciòn de las anotaciones a Google Drive
+
+Se cargaron las carpetas con las anotaciones exportadas del Label Studio.
+
+![Archivos comprimidos de las anotaciones en Drive](C:\Users\geysl\Documents\Cafè\23.jpg)
+
+# Resultados 
+
+https://drive.google.com/drive/folders/1sH5p3mTSZH0EwPIMoFREFMivvTxhNZbS
+
 
 # Conclusiòn
 
@@ -115,6 +142,10 @@ Además, estas herramientas no solo optimizan el flujo de trabajo en proyectos d
 
 # Referencias
 
--   Rivera Rojo, C. R. (2022). Competitividad del café mexicano en el comercio internacional: un análisis comparativo con Brasil, Colombia y Perú (2000-2019). Análisis económico, 37(94), 181-199.
+-  Anaconda, Inc. (2024). “Conda: Package and environment management.” https://docs.conda.io/en/latest/
 
 -   Apeña Castillo, K. Y., & Zarpan Casas, J. V. (2020). Factores determinantes en el sector cafetalero del Perú para la exportación de café orgánico hacia el mercado de Estados Unidos durante el periodo 2000–2019.
+
+-  “Miniconda: The minimal conda installer.” (2020). Anaconda Documentation. https://docs.conda.io/en/latest/miniconda.html
+
+-   Rivera Rojo, C. R. (2022). Competitividad del café mexicano en el comercio internacional: un análisis comparativo con Brasil, Colombia y Perú (2000-2019). Análisis económico, 37(94), 181-199.
